@@ -17,14 +17,22 @@
       background-color: #540b3d;
       color: white;
       padding: 1rem;
+    }
+    .header-content {
       display: flex;
       align-items: center;
-      justify-content: center;
-      flex-direction: column;
     }
-    header img {
+    .header-content img {
       height: 60px;
-      margin-bottom: 0.5rem;
+      margin-right: 1rem;
+    }
+    .institutional-text {
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+    .titles {
+      text-align: center;
+      margin-top: 1rem;
     }
     main {
       background-color: white;
@@ -70,9 +78,17 @@
 </head>
 <body>
   <header>
-    <img src="Logo mich QR.png" alt="Logo Gobierno de Michoacán">
-    <h2>CONSTANCIA VALIDADA</h2>
-    <h3>DIRECCIÓN DE FORMACIÓN CONTINUA</h3>
+    <div class="header-content">
+      <img src="Logo mich QR.png" alt="Logo Gobierno de Michoacán">
+      <div class="institutional-text">
+        Secretaría de Educación<br>
+        GOBIERNO DE MICHOACÁN
+      </div>
+    </div>
+    <div class="titles">
+      <h2>CONSTANCIA VALIDADA</h2>
+      <h3>DIRECCIÓN DE FORMACIÓN CONTINUA</h3>
+    </div>
   </header>
   <main>
     <div class="field">
