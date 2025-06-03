@@ -2,86 +2,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Constancia Validada</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Constancia Validada - María Teresa Duarte Ramírez</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
     }
     header {
-      background-color: #5b0a53;
-      color: white;
-      padding: 15px;
+      background-color: #5a1243;
       display: flex;
       align-items: center;
-      gap: 10px;
-      justify-content: center;
+      justify-content: flex-start;
+      padding: 20px 20px;
     }
     header img {
-      height: 60px;
+      height: 85px;
     }
-    h1 {
-      font-size: 1.4em;
-      margin: 0;
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
-    main {
-      padding: 20px;
-    }
-    .seccion {
-      background: white;
-      border-radius: 10px;
-      padding: 25px;
-      max-width: 600px;
-      margin: auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .titulo {
-      color: #5b0a53;
-      font-weight: bold;
-      font-size: 1.5em;
+    .title {
       text-align: center;
-      margin-bottom: 20px;
-    }
-    .dato {
-      margin-bottom: 12px;
-      font-size: 1.05em;
-    }
-    .dato strong {
-      display: block;
+      color: #5a1243;
       font-weight: bold;
-      color: #333;
+    }
+    .label {
+      color: #666;
+      margin-top: 10px;
+    }
+    .value {
+      color: #111;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+      margin-bottom: 8px;
     }
     footer {
-      background-color: #e4e4e4;
+      background-color: #5a5c69;
+      color: #eee;
       text-align: center;
-      font-size: 0.85em;
-      color: #333;
-      padding: 15px;
+      font-size: 0.8em;
+      padding: 20px 10px;
       margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo Gobierno de Michoacán">
-    <h1>Secretaría de Educación<br>Gobierno de Michoacán</h1>
+    <img src="Logo_final_suave.png" alt="Secretaría de Educación - Gobierno de Michoacán" />
   </header>
-  <main>
-    <div class="seccion">
-      <div class="titulo">CONSTANCIA VALIDADA</div>
-      <div class="dato"><strong>Folio</strong>CUSTEM2024053</div>
-      <div class="dato"><strong>Nombre</strong>MARÍA TERESA DUARTE RAMÍREZ</div>
-      <div class="dato"><strong>RFC</strong>DURT800925NH0</div>
-      <div class="dato"><strong>Taller</strong>CURSO INTRODUCCIÓN AL MARCO INSTRUCCIONAL STEM</div>
-      <div class="dato"><strong>Tipo de curso</strong>CURSO</div>
-      <div class="dato"><strong>Duración</strong>40 HORAS</div>
-      <div class="dato"><strong>Vigencia</strong>2/05/2027</div>
-    </div>
-  </main>
+  <div class="container">
+    <div class="title">Dirección de Formación Continua</div>
+    <h2 class="title">CONSTANCIA VALIDADA</h2>
+
+    <div class="label">Folio</div>
+    <div class="value">CUSTEM2024053</div>
+
+    <div class="label">Nombre</div>
+    <div class="value">MARÍA TERESA DUARTE RAMÍREZ</div>
+
+    <div class="label">RFC</div>
+    <div class="value">DURT800925NH0</div>
+
+    <div class="label">Taller</div>
+    <div class="value">CURSO INTRODUCCIÓN AL MARCO INSTRUCCIONAL STEAM</div>
+
+    <div class="label">Tipo de curso</div>
+    <div class="value">CURSO</div>
+
+    <div class="label">Duración</div>
+    <div class="value">40 HORAS</div>
+
+    <div class="label">Vigencia</div>
+    <div class="value">2/05/2027</div>
+  </div>
+
   <footer>
     © 2025, Desarrollado por Dirección de Tecnologías de la Información | Gobierno del Estado de Michoacán 2021 - 2027
   </footer>
