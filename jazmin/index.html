@@ -2,113 +2,93 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constancia Validada</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        .header {
-            background-color: #800040;
-            color: white;
-            padding: 1em;
-            display: flex;
-            align-items: center;
-            justify-content: start;
-        }
-        .header img {
-            height: 50px;
-            margin-right: 15px;
-        }
-        .header-text {
-            font-size: 0.9em;
-            line-height: 1.2;
-        }
-        .container {
-            max-width: 600px;
-            margin: 1.5em auto;
-            background: white;
-            border-radius: 10px;
-            padding: 1.5em;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        .section-title {
-            text-align: center;
-            color: #800040;
-            margin-bottom: 1.5em;
-        }
-        .field {
-            margin-bottom: 1em;
-        }
-        .field span {
-            display: block;
-            font-weight: bold;
-            color: #555;
-            margin-bottom: 0.2em;
-        }
-        .footer {
-            text-align: center;
-            font-size: 0.8em;
-            color: #666;
-            margin-top: 2em;
-            padding-bottom: 1em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Constancia Validada - Jazmin Zaragoza Arias</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #5a1243;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 20px;
+    }
+    header img {
+      height: 85px;
+    }
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .title {
+      text-align: center;
+      color: #5a1243;
+      font-weight: bold;
+    }
+    .label {
+      color: #666;
+      margin-top: 10px;
+    }
+    .value {
+      color: #111;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+      margin-bottom: 8px;
+    }
+    footer {
+      background-color: #5a5c69;
+      color: #eee;
+      text-align: center;
+      font-size: 0.8em;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <img src="Logo_final_suave.png" alt="Secretaría de Educación - Gobierno de Michoacán" />
+  </header>
+  <div class="container">
+    <div class="title">Dirección de Formación Continua</div>
+    <h2 class="title">CONSTANCIA VALIDADA</h2>
 
-    <div class="header">
-        <img src="logo.png" alt="Logo">
-        <div class="header-text">
-            <strong>Secretaría de Educación</strong><br>
-            Gobierno de Michoacán
-        </div>
-    </div>
+    <div class="label">Folio</div>
+    <div class="value">CUSTEM2024054</div>
 
-    <div class="container">
-        <div class="section-title">
-            <div><strong>DIRECCIÓN DE FORMACIÓN CONTINUA</strong></div>
-            <h2>CONSTANCIA VALIDADA</h2>
-        </div>
+    <div class="label">Nombre</div>
+    <div class="value">JAZMIN ZARAGOZA ARIAS</div>
 
-        <div class="field">
-            <span>Folio</span>
-            CUSTEM2024054
-        </div>
-        <div class="field">
-            <span>Nombre</span>
-            JAZMÍN ZARAGOZA ARIAS
-        </div>
-        <div class="field">
-            <span>RFC</span>
-            ZAAJ880811T60
-        </div>
-        <div class="field">
-            <span>Taller</span>
-            CURSO INTRODUCCIÓN AL MARCO INSTRUCCIONAL STEM
-        </div>
-        <div class="field">
-            <span>Tipo de curso</span>
-            CURSO
-        </div>
-        <div class="field">
-            <span>Duración</span>
-            40 HORAS
-        </div>
-        <div class="field">
-            <span>Vigencia</span>
-            2/05/2027
-        </div>
+    <div class="label">RFC</div>
+    <div class="value">ZAAJ880811T60</div>
 
-        <div class="footer">
-            © 2025, Desarrollado por Dirección de Tecnologías de la Información |
-            Gobierno del Estado de Michoacán 2021 - 2027
-        </div>
-    </div>
+    <div class="label">Taller</div>
+    <div class="value">CURSO INTRODUCCIÓN AL MARCO INSTRUCCIONAL STEAM</div>
 
+    <div class="label">Tipo de curso</div>
+    <div class="value">CURSO</div>
+
+    <div class="label">Duración</div>
+    <div class="value">40 HORAS</div>
+
+    <div class="label">Vigencia</div>
+    <div class="value">2/05/2027</div>
+  </div>
+
+  <footer>
+    © 2025, Desarrollado por Dirección de Tecnologías de la Información | Gobierno del Estado de Michoacán 2021 - 2027
+  </footer>
 </body>
 </html>
